@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect("mongodb+srv://devrelan8599_db_user:<db_password>@cluster0.zzzdk6s.mongodb.net/?appName=Cluster0");
+mongoose.connect("mongodb+srv://devrelan8599_db_user:<Mongodev124>@cluster0.zzzdk6s.mongodb.net/?appName=Cluster0");
 
 app.use("/api", require("./routes/api"));
 
